@@ -1,5 +1,5 @@
 module.exports = {
-    branchPrefix: 'test-renovate/',
+    branchPrefix: 'renovate-action/',
     username: 'renovate-release',
     gitAuthor: 'Renovate Bot <bot@renovateapp.com>',
     onboarding: false,
@@ -18,7 +18,7 @@ module.exports = {
           'lockFileMaintenance',
         ],
         dependencyDashboardApproval: false,
-        minimumReleaseAge: 0,
+        minimumReleaseAge: "0",
       },
     ],
   };
